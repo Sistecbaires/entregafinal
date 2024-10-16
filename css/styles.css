@@ -122,7 +122,6 @@
   }*/
   .portada3 {
     flex-direction: row;
-    justify-content: space-around;
   }
   li {
     font-size: 25px;
@@ -318,6 +317,7 @@ main {
   height: 15%;
   width: 25%;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 #texto_consul {
@@ -352,8 +352,7 @@ main {
   flex-direction: column;
   height: 50%;
   width: 98%;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   justify-content: space-evenly;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -365,6 +364,23 @@ main {
 
 .carta__alinecenter {
   text-align: center;
+}
+
+.divformcontact {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.boton_contact {
+  display: flexbox;
+  flex-direction: column;
+  width: 50px;
+  height: 30px;
+  background-color: rgb(8, 81, 238);
+  color: white;
+  font-size: 14px;
+  border-radius: 10%;
 }
 
 /*# sourceMappingURL=styles.css.map */
