@@ -19,6 +19,15 @@
     .portada3{
         flex-direction: column;
         justify-content: space-evenly;
+        padding: 5%;
+    }
+
+    .img_portada{
+        padding: 2%;
+    }
+
+    .img_consultorio{
+        padding: 20%;
     }
     
     li{
@@ -60,7 +69,7 @@
         font-size: 25px;
       }
     .carta{
-        font-size: 12px;
+        font-size: 18px;
       }
     #parrafo1{
         font-size: 12px;
@@ -80,6 +89,7 @@
     .portada3{
         flex-direction: column;
         justify-content: space-evenly;
+        padding: 10px;
     }
     #autora{
         font-size: 15px;
@@ -138,7 +148,7 @@
     }*/
     .portada3{
         flex-direction: row;
-        
+        padding: 10%;
     }
     li{
         font-size: 25px;
@@ -248,6 +258,10 @@ main{
     height: 1161px;
     background-color: antiquewhite;
 }
+
+.mainterapia{
+    padding: 10%;
+}
 .padre{
     display: flex;
     flex-direction: column;
@@ -335,8 +349,8 @@ main{
 .formulario{
     display:flex;
     flex-direction: column;
-    height: 15%;
-    width: 25%;
+    height: 80%;
+    width: 350px;
     justify-content:center;
     box-sizing: border-box;
     
@@ -349,7 +363,6 @@ main{
 
 
 .boton_carta{
-    width: 20%;
     height: 30px;
     background-color: black;
     color:white;
@@ -373,7 +386,6 @@ main{
     display: flex;
     flex-direction: column;
     height:50%;
-    width:98%;
     padding: 10px;
     justify-content: space-evenly;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -389,11 +401,31 @@ main{
     text-align: center;
 }
 
-.divformcontact{
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
+ .divformcontact{
+    padding: 10%;
 }
+
+input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+
+ select{
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+ }
+
+ form{max-width: 500px; margin: 0 auto;}
 
 .boton_contact{
     display: flexbox;
@@ -404,5 +436,7 @@ main{
     color:white;
     font-size:14px;
     border-radius: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
