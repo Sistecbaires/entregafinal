@@ -5,15 +5,21 @@
 
 /* XS SM */
 @media screen and (max-width: 600px) {
-  /*.img_portada{
-      width: 60px;
-      height: 60px;
-      flex-direction: column;
-  }*/
+  .img_portada {
+    width: 25%;
+    height: 25%;
+    flex-direction: column;
+  }
+  .mainindex {
+    height: 1800px;
+  }
   .portada3 {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 5%;
+  }
+  .portada {
+    font-size: 15px;
   }
   .img_portada {
     padding: 2%;
@@ -39,7 +45,7 @@
     font-size: 25px;
   }
   h1 {
-    font-size: 15px;
+    font-size: 20px;
   }
   h2 {
     font-size: 12px;
@@ -63,7 +69,24 @@
     font-size: 18px;
   }
   #parrafo1 {
-    font-size: 12px;
+    font-size: 18px;
+  }
+  #parrafo2 {
+    font-size: 20px;
+  }
+  .boton_contact {
+    width: 50px;
+    height: 30px;
+    font-size: 16px;
+  }
+  input {
+    font-size: 16px;
+  }
+  label {
+    font-size: 16px;
+  }
+  select {
+    font-size: 16px;
   }
 }
 /* MD */
@@ -76,6 +99,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 10px;
+  }
+  .portada {
+    font-size: 30px;
   }
   #autora {
     font-size: 15px;
@@ -121,6 +147,23 @@
   #parrafo1 {
     font-size: 10px;
   }
+  #parrafo2 {
+    font-size: 30px;
+  }
+  .boton_contact {
+    width: 90px;
+    height: 60px;
+    font-size: 25px;
+  }
+  input {
+    font-size: 25px;
+  }
+  label {
+    font-size: 25px;
+  }
+  select {
+    font-size: 25px;
+  }
 }
 /* LG */
 @media only screen and (min-width: 992px) {
@@ -130,7 +173,9 @@
   }*/
   .portada3 {
     flex-direction: row;
-    padding: 10%;
+  }
+  .portada {
+    font-size: 30px;
   }
   li {
     font-size: 25px;
@@ -167,6 +212,9 @@
   #parrafo1 {
     font-size: 20px;
   }
+  #parrafo2 {
+    font-size: 30px;
+  }
   #autora {
     font-size: 30px;
   }
@@ -174,6 +222,20 @@
     font-size: 72px;
   }
   .carta {
+    font-size: 25px;
+  }
+  .boton_contact {
+    width: 100px;
+    height: 70px;
+    font-size: 30px;
+  }
+  input {
+    font-size: 25px;
+  }
+  label {
+    font-size: 25px;
+  }
+  select {
     font-size: 25px;
   }
 }
@@ -195,6 +257,13 @@ h1 {
   color: rgba(3, 3, 3, 0.918);
   text-decoration: none;
   text-align: center;
+}
+
+.h1index {
+  color: rgba(3, 3, 3, 0.918);
+  text-decoration: none;
+  text-align: center;
+  padding-top: 5%;
 }
 
 h2 {
@@ -234,12 +303,12 @@ h3 {
 }
 
 main {
-  height: 1161px;
+  height: auto;
   background-color: antiquewhite;
 }
 
 .mainterapia {
-  padding: 10%;
+  padding: 5%;
 }
 
 .padre {
@@ -304,7 +373,6 @@ main {
 }
 
 #parrafo2 {
-  font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 70%;
 }
@@ -351,6 +419,7 @@ main {
   color: rgba(3, 3, 3, 0.918);
   text-decoration: none;
   text-align: center;
+  padding-top: 5%;
 }
 
 #h2sobremi {
@@ -409,11 +478,8 @@ form {
 .boton_contact {
   display: flexbox;
   flex-direction: column;
-  width: 50px;
-  height: 30px;
   background-color: rgb(8, 81, 238);
   color: white;
-  font-size: 14px;
   border-radius: 10%;
   margin-top: 10%;
   margin-left: 10%;
